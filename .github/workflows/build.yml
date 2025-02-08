@@ -20,7 +20,7 @@ jobs:
           kernel-branch: normal-test-ksu
           config: markw_defconfig
           arch: arm64
-          aosp-gcc: false
+          aosp-gcc: true
           aosp-clang: true
           ksu: true
           ksu-version: main
